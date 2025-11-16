@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Navbar, Nav, Container, Badge } from "react-bootstrap";
 import { CartContext } from "../context/CartContext";
-import "./Nav.css"; 
 
 function NavigationBar() {
   const user = JSON.parse(localStorage.getItem("user"));
