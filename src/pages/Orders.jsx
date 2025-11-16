@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-// import "./Orders.css"; // ✅ Add new CSS file
 
 function Orders() {
   const [placed, setPlaced] = useState(false);
