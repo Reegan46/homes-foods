@@ -1,0 +1,504 @@
+{
+  "accounts": [
+    {
+      "id": "u1",
+      "email": "sample@gmail.com",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "u2",
+      "email": "reegan@gmail.com",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "u3",
+      "email": "krish@gmail.com",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "a1",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "c178",
+      "email": "Reegan@mail.com",
+      "password": "12"
+    }
+  ],
+  "foods": [
+    {
+      "id": "101",
+      "name": "Chicken Biriyani",
+      "price": 180,
+      "img": "https://spicecravings.com/wp-content/uploads/2021/04/Chicken-Biryani-Featured-2.jpg",
+      "desc": "Spicy and flavorful chicken biryani"
+    },
+    {
+      "id": "102",
+      "name": "Paneer Butter Masala",
+      "price": 160,
+      "img": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/paneer-butter-masala.jpg",
+      "desc": "Creamy North Indian paneer gravy"
+    },
+    {
+      "name": "Masala Dosa",
+      "price": 90,
+      "img": "https://cuisinejourney.com/wp-content/webp-express/webp-images/uploads/2024/01/Masala-Dosa.jpg.webp",
+      "desc": "South Indian crispy dosa with masala",
+      "id": "103"
+    },
+    {
+      "id": "104",
+      "name": "Chicken Shawarma Roll",
+      "price": 120,
+      "img": "https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Shawarma.jpg",
+      "desc": "Arabian style soft shawarma wrap"
+    },
+    {
+      "id": "105",
+      "name": "Idli Sambar",
+      "price": 60,
+      "img": "https://img.freepik.com/premium-photo/idly-sambar-idli-with-sambhar-green-red-chutney-popular-south-indian-breakfast_999766-2544.jpg",
+      "desc": "Soft idlis with tasty sambhar"
+    },
+    {
+      "id": "106",
+      "name": "Chicken Noodles",
+      "price": 140,
+      "img": "https://www.marionskitchen.com/wp-content/uploads/2022/11/Sichuan-Chilli-Chicken-Noodles-04.jpg",
+      "desc": "Spicy Indo-Chinese chicken noodles"
+    },
+    {
+      "name": "Veg Momos",
+      "price": 110,
+      "img": "https://cdn.grofers.com/assets/search/usecase/banner/veg_schezwan_momos_01.png",
+      "desc": "Steamed dumplings filled with veggies",
+      "id": "107"
+    },
+    {
+      "name": "Chicken Popcorn",
+      "price": 130,
+      "img": "https://www.flavorquotient.com/wp-content/uploads/2024/04/Chicken-Popcorn-FQ-4-3799.jpg",
+      "desc": "Crispy small chicken bites",
+      "id": "108"
+    },
+    {
+      "name": "Beef Curry",
+      "price": 220,
+      "img": "https://img.freepik.com/premium-photo/beef-curry_454225-5818.jpg?w=2000",
+      "desc": "Kerala style beef curry",
+      "id": "109"
+    },
+    {
+      "name": "Panner Pizza",
+      "price": 250,
+      "img": "https://img.freepik.com/premium-photo/tandoori-paneer-pizza-side-view_1170794-93971.jpg?w=2000",
+      "desc": "Spicy paneer loaded pizza",
+      "id": "110"
+    },
+    {
+      "name": "Fish Fry",
+      "price": 180,
+      "img": "https://farm5.staticflickr.com/4551/38906976401_27bd27e344_o_d.jpg",
+      "desc": "Crispy seer fish fry",
+      "id": "111"
+    },
+    {
+      "name": "Egg Fried Rice",
+      "price": 120,
+      "img": "https://stretchrecipes.com/wp-content/uploads/2025/01/16.-Indian-Egg-Fried-Rice.jpg",
+      "desc": "Fried rice with scrambled eggs",
+      "id": "112"
+    },
+    {
+      "name": "Chilli Chicken",
+      "price": 200,
+      "img": "https://wallpapercave.com/wp/wp9933045.jpg",
+      "desc": "Spicy Indo-Chinese chicken starter",
+      "id": "113"
+    },
+    {
+      "name": "Parotta with Beef",
+      "price": 160,
+      "img": "https://i.redd.it/ixmmb8ufajq61.jpg",
+      "desc": "Parotta served with beef curry",
+      "id": "114"
+    },
+    {
+      "name": "Pasta White Sauce",
+      "price": 190,
+      "img": "https://recipes.timesofindia.com/photo/54292840.cms",
+      "desc": "Creamy pasta in white sauce",
+      "id": "115"
+    },
+    {
+      "name": "Chicken Wrap",
+      "price": 150,
+      "img": "https://images.eatthismuch.com/site_media/img/905689_tabitharwheeler_899c56e3-177b-4908-a1e6-d183aba99401.jpg",
+      "desc": "Juicy grilled chicken wrap",
+      "id": "116"
+    },
+    {
+      "name": "Mutton Biryani",
+      "price": 350,
+      "img": "https://bonmasala.com/wp-content/uploads/2022/10/mutton-biriyani-recipe.jpeg",
+      "desc": "Rich mutton biryani with spices",
+      "id": "117"
+    },
+    {
+      "name": "Chicken Combo Meal",
+      "price": 499,
+      "img": "https://product-assets-staging-ik.faasos.io/production/product/image_es_1638264593609_Chicken%20biryani%20combo%20meal.jpg",
+      "desc": "Chicken biriyani (1kg)+ grill (500g)+ drink",
+      "id": "118"
+    },
+    {
+      "name": "Veg Thali",
+      "price": 120,
+      "img": "https://img.freepik.com/premium-photo/veg-thali-from-indian-cuisine-food-platter-consists-variety-veggiespaneer-dish-lentilsriceroti-sweet-dish-snacks-etc-selective-focus_726363-592.jpg?w=2000",
+      "desc": "Veg curry, rice, roti, sweets",
+      "id": "119"
+    },
+    {
+      "name": "Schezwan Fried Rice",
+      "price": 150,
+      "img": "https://www.veganricha.com/wp-content/uploads/2023/09/Schezwan-Rice-2756-1024x1536.jpg",
+      "desc": "Spicy red fried rice",
+      "id": "120"
+    },
+    {
+      "name": "Garlic Naan",
+      "price": 80,
+      "img": "https://thebellyrulesthemind.net/wp-content/uploads/2020/09/Garlic-Naan-4-683x1024.jpg",
+      "desc": "Soft naan topped with garlic",
+      "id": "121"
+    },
+    {
+      "name": "Butter Chicken",
+      "price": 280,
+      "img": "https://masalaandchai.com/wp-content/uploads/2022/03/Butter-Chicken.jpg",
+      "desc": "Creamy butter rich gravy +2 Bread",
+      "id": "122"
+    },
+    {
+      "name": "Mango Shake",
+      "price": 90,
+      "img": "https://www.funfoodfrolic.com/wp-content/uploads/2021/05/Mango-Shake-2.jpg",
+      "desc": "Thick mango shake",
+      "id": "123"
+    },
+    {
+      "name": "Coke 1.25L",
+      "price": 85,
+      "img": "https://cdn0.woolworths.media/content/wowproductimages/large/623034_8.jpg",
+      "desc": "Chilled soft drink bottle",
+      "id": "124"
+    },
+    {
+      "name": "Chicken 65",
+      "price": 210,
+      "img": "https://i.pinimg.com/originals/6c/ba/f9/6cbaf9733860bbecbab77bb998dcdd3a.jpg",
+      "desc": "Hot and spicy chicken dish",
+      "id": "125"
+    },
+    {
+      "name": "Roti with Chicken Curry",
+      "price": 130,
+      "img": "https://shahjis.co.nz/wp-content/uploads/2021/10/Chicken-Curry-With-Roti.jpg",
+      "desc": "Soft rotis with chicken gravy",
+      "id": "126"
+    },
+    {
+      "name": "Veg Biryani",
+      "price": 150,
+      "img": "https://www.zeelskitchen.com/wp-content/uploads/2015/07/Vegtable_Biryani_14.jpg",
+      "desc": "Healthy and flavorful veg biryani",
+      "id": "127"
+    },
+    {
+      "name": "Grill Chicken Full",
+      "price": 799,
+      "img": "https://s3.amazonaws.com/grazecart/thefamilycow/images/1662208124_6313487cd2777.jpg",
+      "desc": "Whole grilled chicken",
+      "id": "128"
+    },
+    {
+      "name": "BBQ Chicken Pizza",
+      "price": 350,
+      "img": "https://cdn.grofers.com/assets/search/usecase/banner/barbecue_chicken_pizza_01.png",
+      "desc": "BBQ sauce loaded pizza",
+      "id": "129"
+    },
+    {
+      "name": "Chicken Wings",
+      "price": 220,
+      "img": "https://www.wikihow.com/images/0/02/Make-Thai-Style-Grilled-Chicken-Wings-Step-7.jpg",
+      "desc": "Crispy wing pieces",
+      "id": "130"
+    },
+    {
+      "name": "Bun Parotta",
+      "price": 50,
+      "img": "https://i.pinimg.com/736x/31/4f/89/314f89e6ce12332e81ab39d033b4e565.jpg",
+      "desc": "Soft layered bun parotta",
+      "id": "131"
+    },
+    {
+      "name": "Veg Burger",
+      "price": 99,
+      "img": "https://www.noracooks.com/wp-content/uploads/2023/04/veggie-burgers-1-2.jpg",
+      "desc": "Crispy veg patty burger",
+      "id": "132"
+    },
+    {
+      "name": "Chicken Cheese Sandwich",
+      "price": 140,
+      "img": "https://i.ytimg.com/vi/_WgJJC3_cD8/maxresdefault.jpg",
+      "desc": "Grilled chicken sandwich with cheese",
+      "id": "133"
+    },
+    {
+      "name": "Fish Biriyani",
+      "price": 260,
+      "img": "http://1.bp.blogspot.com/-ut098frijfY/VoS9rCWrTuI/AAAAAAAABr0/BvGZwRSeuBk/s1600/how%2Bto%2Bmake%2Bfish%2Bbiriyani%2Brecipe%2Bprawn%2Bbiriyani%2Bayeshas%2Bkitchen%2Bking%2Bfish%2Bbiriyani.jpg",
+      "desc": "Seafood biryani special",
+      "id": "134"
+    },
+    {
+      "name": "Cold Coffee",
+      "price": 120,
+      "img": "https://www.spiceupthecurry.com/wp-content/uploads/2022/04/cold-coffee-1.jpg",
+      "desc": "Icy cold creamy coffee",
+      "id": "135"
+    },
+    {
+      "name": "Chicken Tikka",
+      "price": 300,
+      "img": "https://www.kitchensanctuary.com/wp-content/uploads/2020/07/Chicken-Tikka-Skewers-square-FS-77.jpg",
+      "desc": "Tandoor cooked chicken pieces",
+      "id": "136"
+    },
+    {
+      "name": "Hyderabadi Dum Biryani",
+      "price": 450,
+      "img": "https://zaiqa.in/wp-content/uploads/2025/05/Hyderabadi-Chicken-Dum-Biryani-Recipe.jpeg",
+      "desc": "Authentic Hyderabadi style",
+      "id": "137"
+    },
+    {
+      "name": "North Indian Meal Combo",
+      "price": 380,
+      "img": "https://img.freepik.com/premium-photo/north-indian-mini-meal-parcel-platter-combo-thali-with-paneer-butter-masala-roti-dal-rice_198067-495182.jpg",
+      "desc": "Full veg combo with sweets",
+      "id": "138"
+    },
+    {
+      "name": "Pazhampori",
+      "price": 50,
+      "img": "https://img.onmanorama.com/content/dam/mm/en/food/features/2022/05/11/images/2022/5/14/pazhampori.jpg",
+      "desc": "Banana fritters Kerala special",
+      "id": "139"
+    },
+    {
+      "name": "Kebab Platter",
+      "price": 899,
+      "img": "https://img.freepik.com/premium-photo/diverse-kebab-platter-with-assorted-grilled-kebabs-fresh-flatbread-accompanying-sauces_818261-11343.jpg",
+      "desc": "Mix kebab feast",
+      "id": "140"
+    },
+    {
+      "name": "Mutton Thali",
+      "price": 499,
+      "img": "https://img.freepik.com/premium-photo/kolhapuri-chicken-thali-is-popular-indian-asian-food-platter-consists-poultry-meat-egg-curry-with-chapati-rice-salad-sweet-gulab-jamun_466689-26371.jpg",
+      "desc": "Special mutton rice combo",
+      "id": "141"
+    },
+    {
+      "name": "Family Chicken Combo",
+      "price": 1499,
+      "img": "https://img.freepik.com/premium-photo/signature-classic-combo-indian-spisy-food-paneer-tikka-biryani-with-raita-shami-kabab-drinks-gulab-jamun-served-dish-side-view-ramadan-family-deal-grey-background_689047-2433.jpg?w=1800",
+      "desc": "Biriyani + Grill + Sides + Desserts",
+      "id": "142"
+    },
+    {
+      "name": "Seafood Platter",
+      "price": 1800,
+      "img": "https://flawlessfood.co.uk/wp-content/uploads/2022/09/Seafood-Platter-Fruits-de-Mer-373-of-381-Flawless.jpg",
+      "desc": "Variety of seafood dishes",
+      "id": "143"
+    },
+    {
+      "name": "Chocolate Brownie",
+      "price": 110,
+      "img": "https://chopnotch.com/wp-content/uploads/Dark-Chocolate-Brownies-1200x1200.jpg",
+      "desc": "Chocolate-rich dessert",
+      "id": "144"
+    },
+    {
+      "name": "Strawberry Milkshake",
+      "price": 100,
+      "img": "https://www.thespruceeats.com/thmb/0vrr1g5vG9nmm-_eJ9yq_T6MAS8=/5299x3533/filters:no_upscale():max_bytes(150000):strip_icc()/make-a-strawberry-milkshake-4037458-step-08-5c3f64a7c9e77c0001621846.jpg",
+      "desc": "Sweet strawberry shake",
+      "id": "145"
+    },
+    {
+      "name": "Veg Spring Rolls",
+      "price": 120,
+      "img": "https://vegecravings.com/wp-content/uploads/2016/09/spring-roll-recipe-step-by-step-instructions.jpg",
+      "desc": "Crispy veg appetizer",
+      "id": "146"
+    },
+    {
+      "name": "Chicken Steak",
+      "price": 550,
+      "img": "https://img.freepik.com/premium-photo/chicken-steak_1059430-54250.jpg",
+      "desc": "Grilled chicken with sauces",
+      "id": "147"
+    },
+    {
+      "name": "Tandoori Chicken",
+      "price": 380,
+      "img": "https://www.teaforturmeric.com/wp-content/uploads/2024/09/Tandoori-Chicken-Recipe.jpg",
+      "desc": "Charcoal roasted chicken",
+      "id": "148"
+    },
+    {
+      "name": "Full Meals",
+      "price": 150,
+      "img": "https://www.yummyoyummy.com/wp-content/uploads/2021/02/IMG_E1389-scaled.jpg",
+      "desc": "Kerala style unlimited meal",
+      "id": "149"
+    },
+    {
+      "name": "Royal Feast Combo",
+      "price": 2000,
+      "img": "https://thumbs.dreamstime.com/b/medieval-castle-banquet-candlelit-tables-royal-feasts-stunning-stained-glass-windows-302500082.jpg",
+      "desc": "The Royal combo fest for 10 members",
+      "id": "150"
+    },
+    {
+      "name": "Peri Peri Chicken",
+      "price": 420,
+      "img": "https://paattiskitchen.com/wp-content/uploads/2023/03/kmc_20230313_192612.jpg",
+      "desc": "Hot peri peri grilled chicken",
+      "id": "151"
+    },
+    {
+      "name": "Veg Cheese Pasta",
+      "price": 210,
+      "img": "https://i.pinimg.com/originals/07/bc/3f/07bc3f5365f46723c0f5241b42969e6f.jpg",
+      "desc": "Cheesy creamy pasta with veggies",
+      "id": "152"
+    }
+  ],
+  "orders": [
+    {
+      "0": {
+        "id": 2,
+        "name": "Burger",
+        "price": 90
+      },
+      "1": {
+        "id": 1,
+        "name": "Pizza",
+        "price": 120
+      },
+      "id": "89c0"
+    },
+    {
+      "0": {
+        "id": 2,
+        "name": "Burger",
+        "price": 90
+      },
+      "1": {
+        "id": 1,
+        "name": "Pizza",
+        "price": 120
+      },
+      "id": "2880"
+    },
+    {
+      "0": {
+        "id": 1,
+        "name": "Pizza",
+        "price": 120
+      },
+      "id": "f6bf"
+    },
+    {
+      "0": {
+        "id": "3",
+        "name": "Fried Rice",
+        "price": 150,
+        "img": "https://tse3.mm.bing.net/th/id/OIP.gpD8wC7-RpOqR1_eqtf4FQHaE8?pid=Api&P=0&h=180",
+        "desc": "Veg fried rice"
+      },
+      "1": {
+        "name": "Margherita Pizza",
+        "price": 200,
+        "img": "https://tse2.mm.bing.net/th/id/OIP.RWaaZCnAJwE8O0FxwD7y0AHaEo?pid=Api&P=0&h=18071-b6e93d1d5b46",
+        "desc": "Classic cheese pizza with basil",
+        "id": "74b8"
+      },
+      "id": "1adb"
+    },
+    {
+      "id": "3528",
+      "items": [
+        {
+          "name": "Veg Sandwich",
+          "price": 99,
+          "img": "https://tse1.mm.bing.net/th/id/OIP.gTfC3uKTt54yVyyFxRCzIAHaHa?pid=Api&P=0&h=180",
+          "desc": "Fresh veggies layered between toasted bread",
+          "id": "2"
+        }
+      ],
+      "total": 99,
+      "user": "reeganr897@gmail.come",
+      "createdAt": "2025-11-06T05:03:56.460Z",
+      "status": "Placed"
+    },
+    {
+      "id": "dbbb",
+      "items": [
+        {
+          "name": "Veg Sandwich",
+          "price": 99,
+          "img": "https://tse1.mm.bing.net/th/id/OIP.gTfC3uKTt54yVyyFxRCzIAHaHa?pid=Api&P=0&h=180",
+          "desc": "Fresh veggies layered between toasted bread",
+          "id": "2"
+        }
+      ],
+      "total": 99,
+      "user": "reeganr897@gmail.come",
+      "createdAt": "2025-11-06T05:05:43.928Z",
+      "status": "Placed"
+    },
+    {
+      "0": {
+        "id": "3",
+        "name": "Fried Rice",
+        "price": 150,
+        "img": "https://tse3.mm.bing.net/th/id/OIP.gpD8wC7-RpOqR1_eqtf4FQHaE8?pid=Api&P=0&h=180",
+        "desc": "Veg fried rice"
+      },
+      "id": "f92a"
+    },
+    {
+      "0": {
+        "id": "3",
+        "name": "Fried Rice",
+        "price": 150,
+        "img": "https://tse3.mm.bing.net/th/id/OIP.gpD8wC7-RpOqR1_eqtf4FQHaE8?pid=Api&P=0&h=180",
+        "desc": "Veg fried rice"
+      },
+      "id": "82ac"
+    }
+  ]
+}

@@ -503,6 +503,119 @@ body {
 .food-desc {
   color: #000 !important;
 }
+/* Navbar Background */
+.custom-navbar {
+  background: linear-gradient(90deg, #1e1e1e, #000);
+  padding: 10px 0;
+  border-bottom: 2px solid #ff7b00;
+}
+
+/* Brand Logo Text */
+.brand-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff7b00 !important;
+}
+
+/* Navigation Links */
+.nav-links .nav-link {
+  color: #fff !important;
+  margin-left: 15px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+/* Hover Animation */
+.nav-links .nav-link:hover {
+  color: #ff7b00 !important;
+  transform: translateY(-2px);
+}
+
+/* Cart Badge */
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -12px;
+  font-size: 12px;
+  padding: 3px 6px;
+  background: #ff7b00 !important;
+  color: #fff !important;
+  border-radius: 50%;
+}
+
+/* Admin Button Styling */
+.admin-link {
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+.admin-link:hover {
+  border-bottom: 2px solid #ff7b00;
+}
+.register-bg {
+  width: 100%;
+  height: 100vh;
+  background: url("https://wallpaperaccess.com/full/3973065.jpg")
+    center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-page {
+  min-height: 80vh;
+}
+
+.register-card {
+  width: 400px;
+  background: rgba(23, 23, 23, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  border: 2px solid #00c853;
+}
+
+.input-field {
+  background: transparent !important;
+  border: 1px solid #00c853 !important;
+  color: white !important;
+  border-radius: 12px;
+}
+
+.input-field:focus {
+  box-shadow: 0 0 8px #00ff59;
+}
+
+.register-btn {
+  background: linear-gradient(90deg, #00c853, #00a844);
+  border: none;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.register-btn:hover {
+  background: linear-gradient(90deg, #00e060, #00a631);
+  transform: scale(1.03);
+}
+
+.error-msg {
+  color: #ff4e4e;
+  font-weight: bold;
+}
+
+.login-link {
+  font-weight: bold;
+  color: #00ff7f;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+
 
 
 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import { Container, Card, Form, Button } from "react-bootstrap";
+// import "./Register.css"; // ✅ Added CSS
 
 export default function Register() {
   const navigate = useNavigate();
